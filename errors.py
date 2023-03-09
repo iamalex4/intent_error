@@ -2,7 +2,7 @@ import mysql.connector
 
 # Set up a connection to the MySQL database with incorrect credentials
 cnx = mysql.connector.connect(user='wrongusername', password='wrongpassword',
-                              host='localhost',
+                              hot='host',
                               database='wrongdatabase')
 
 # Create a cursor object to interact with the database
